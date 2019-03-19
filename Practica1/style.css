@@ -1,0 +1,51 @@
+body {
+    background: #bfbfbf;
+  }
+  
+  #container {
+    background-color:  white;
+    width: 510px;
+    height: 560px;
+    position: relative;
+    left: 380px;
+  }
+  
+  .special_div {
+    background-color: white;
+    background-size: contain;
+    position: relative;
+    width: 150px;
+    height: 150px;
+  }
+
+  p.a {
+    font-family: initial;
+    font-size: 160%;
+    position: relative;
+    top: 30px;
+    left :70px;
+  }
+
+  .img {
+    content:url('circulo.png');
+    width : 27px;
+    height : 27px;
+    position: relative;
+    left: 380px; 
+    top: -23px;
+  }
+
+  .texto_oculto {
+    font-style: italic;
+    font-size: 150%;
+    background:#58FAAC;
+    display: none;
+    position: absolute;
+    top: 245px;
+    left: 185px;
+    width: 150px;
+    height: 130px;
+  }
+  
+
+  
