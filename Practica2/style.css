@@ -1,0 +1,52 @@
+#container {
+  position: relative;
+  width: 832px;
+  height: 624px;
+  background-color: #bdc3c7;
+  left: 200px;
+  padding-top: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-size: 0;
+}
+
+#info {
+  position: absolute;
+  left: 550px;
+  top: 5px;
+  font-size: 32px;
+}
+
+#container > div {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 13px;
+  height: 13px;
+  background-color: #0f4010;
+  border: .1px solid #0c600e;
+}
+
+#retro {
+  position: absolute;
+  width: 260px;
+  height: 150px;
+  left: 500px;
+  top: 300px;
+  background: #00b9e1 ;
+  display: none;
+}
+#retro_txt{
+  position: absolute;
+  left: 70px;
+  top: 30px;
+  font-size: 30px;
+}
+#retro_btn{
+  position: absolute;
+  padding: 10px;
+  left: 50px;
+  top: 80px;
+  font-size: 20px;
+  color: #e75729;
+  background: #e7e700;
+}
