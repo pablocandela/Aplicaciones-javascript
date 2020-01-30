@@ -1,0 +1,119 @@
+body {
+  background: #d0c8ff;
+  margin: 0;
+  padding: 0;
+}
+
+#drawing {
+  position: absolute;
+  left: 400px;
+  top: 10px;
+  border: 1px solid black;
+  width: 360px;
+  height: 640px;
+  background-color: black;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+svg {
+  position: absolute;
+  left: 400px;
+  top: 450px;
+  background: transparent;
+}
+
+#retro {
+  position: absolute;
+  width: 260px;
+  height: 150px;
+  left: 450px;
+  top: 100px;
+  background: black;
+  display: none;
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#retro2 {
+  position: absolute;
+  width: 260px;
+  height: 150px;
+  left: 450px;
+  top: 100px;
+  background: black;
+  display: none;
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;
+}
+
+
+#retro_txt{
+  position: absolute;
+  left: 70px;
+  top: 30px;
+  font-size: 30px;
+  color : white;
+}
+#retro_txt2{
+  position: absolute;
+  left: 70px;
+  top: 30px;
+  font-size: 30px;
+  color : white;
+}
+#retro_btn{
+  position: absolute;
+  padding: 10px;
+  left: 50px;
+  top: 80px;
+  font-size: 20px;
+  color: black;
+  background: white;
+}
+
+#retro_btn2{
+  position: absolute;
+  padding: 10px;
+  left: 50px;
+  top: 80px;
+  font-size: 20px;
+  color: black;
+  background: white;
+}
+
+#retro_btn3 {
+  position: absolute;
+  padding: 1px;
+  left: 400px;
+  top: 600px;
+  font-size: 40px;
+  width: 115px;
+  color: black;
+  background: white;
+}
+
+
+#retro_btn4 {
+  position: absolute;
+  padding: 1px;
+  left: 522px;
+  top: 600px;
+  width: 115px;
+  font-size: 40px;
+  color: black;
+  background: white;
+}
+
+#retro_btn5 {
+  position: absolute;
+  padding: 1px;
+  left: 645px;
+  top: 600px;
+  font-size: 40px;
+  width: 115px;
+  color: black;
+  background: white;
+}

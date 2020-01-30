@@ -91,7 +91,7 @@ window.addEventListener("load", function(evt) {
       else if(children[6].style.backgroundImage == children[4].style.backgroundImage && children[4].style.backgroundImage == children[2].style.backgroundImage
       && children[6].style.backgroundImage != "")
         muestraGanador(turnoActual % 2);
-      if(turnoActual == 9)
+      if(turnoActual == 10)
         oculto[2].style.display = "block";
   }
   
@@ -103,9 +103,9 @@ window.addEventListener("load", function(evt) {
    */
   function muestraGanador(codigoGanador) {
     bloquea = true;
-    if(codigoGanador == 1 && turnoActual != 9)
+    if(codigoGanador == 1 && turnoActual != 10)
       oculto[0].style.display = "block";  
-    else if(turnoActual != 9)
+    else if(turnoActual != 10)
       oculto[1].style.display = "block";
   }
 
